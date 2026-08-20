@@ -45,6 +45,7 @@ const onResize = debounce(() => console.log('done'), 200);
 | `groupBy(array, fn)` | group array items into buckets by a selector. |
 | `isValidCNPJ(cnpj)` | validate a Brazilian CNPJ number, with or without mask. |
 | `truncate(str, length, suffix)` | shorten a string and append a suffix when cut. |
+| `deepClone(value)` | deep clone a structured value. |
 
 Every function lives in its own file under `src/`, so you can also copy a single helper without importing the rest.
 
