@@ -10,3 +10,4 @@ export { range } from './range.js';
 export { sleep } from './sleep.js';
 export { pick } from './pick.js';
 export { omit } from './omit.js';
+export { groupBy } from './groupBy.js';
