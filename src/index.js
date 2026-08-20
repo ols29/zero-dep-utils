@@ -11,3 +11,4 @@ export { sleep } from './sleep.js';
 export { pick } from './pick.js';
 export { omit } from './omit.js';
 export { groupBy } from './groupBy.js';
+export { isValidCNPJ } from './isValidCNPJ.js';
