@@ -39,6 +39,7 @@ const onResize = debounce(() => console.log('done'), 200);
 | `unique(array)` | Remove duplicate values from an array, preserving order. |
 | `clamp(value, min, max)` | restrict a number to an inclusive range. |
 | `range(start, end, step)` | build an array of numbers over an interval. |
+| `sleep(ms)` | resolve a promise after a delay, for use with async/await. |
 
 Every function lives in its own file under `src/`, so you can also copy a single helper without importing the rest.
 
