@@ -6,3 +6,4 @@ export { debounce } from './debounce.js';
 export { chunk } from './chunk.js';
 export { unique } from './unique.js';
 export { clamp } from './clamp.js';
+export { range } from './range.js';
