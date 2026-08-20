@@ -5,3 +5,4 @@ export { isValidCPF } from './isValidCPF.js';
 export { debounce } from './debounce.js';
 export { chunk } from './chunk.js';
 export { unique } from './unique.js';
+export { clamp } from './clamp.js';

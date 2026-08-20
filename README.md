@@ -37,6 +37,7 @@ const onResize = debounce(() => console.log('done'), 200);
 | `debounce(fn, wait)` | Delay a function until calls stop for a given interval. |
 | `chunk(array, size)` | Split an array into groups of a given size. |
 | `unique(array)` | Remove duplicate values from an array, preserving order. |
+| `clamp(value, min, max)` | restrict a number to an inclusive range. |
 
 Every function lives in its own file under `src/`, so you can also copy a single helper without importing the rest.
 
