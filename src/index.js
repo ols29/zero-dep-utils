@@ -8,3 +8,4 @@ export { unique } from './unique.js';
 export { clamp } from './clamp.js';
 export { range } from './range.js';
 export { sleep } from './sleep.js';
+export { pick } from './pick.js';
