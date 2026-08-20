@@ -1,0 +1,19 @@
+{
+  "name": "zero-dep-utils",
+  "version": "0.1.0",
+  "description": "Small, zero-dependency JavaScript utility functions.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["utils", "utilities", "javascript", "zero-dependency", "esm"],
+  "author": "Oliver Santos (https://github.com/ols29)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ols29/zero-dep-utils.git"
+  }
+}
