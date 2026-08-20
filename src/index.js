@@ -12,3 +12,4 @@ export { pick } from './pick.js';
 export { omit } from './omit.js';
 export { groupBy } from './groupBy.js';
 export { isValidCNPJ } from './isValidCNPJ.js';
+export { truncate } from './truncate.js';
