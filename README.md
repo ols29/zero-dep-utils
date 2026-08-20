@@ -42,6 +42,7 @@ const onResize = debounce(() => console.log('done'), 200);
 | `sleep(ms)` | resolve a promise after a delay, for use with async/await. |
 | `pick(obj, keys)` | copy a subset of keys into a new object. |
 | `omit(obj, keys)` | copy an object without the given keys. |
+| `groupBy(array, fn)` | group array items into buckets by a selector. |
 
 Every function lives in its own file under `src/`, so you can also copy a single helper without importing the rest.
 
