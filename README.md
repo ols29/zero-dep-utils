@@ -41,6 +41,7 @@ const onResize = debounce(() => console.log('done'), 200);
 | `range(start, end, step)` | build an array of numbers over an interval. |
 | `sleep(ms)` | resolve a promise after a delay, for use with async/await. |
 | `pick(obj, keys)` | copy a subset of keys into a new object. |
+| `omit(obj, keys)` | copy an object without the given keys. |
 
 Every function lives in its own file under `src/`, so you can also copy a single helper without importing the rest.
 
