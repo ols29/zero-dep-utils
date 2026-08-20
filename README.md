@@ -37,15 +37,15 @@ const onResize = debounce(() => console.log('done'), 200);
 | `debounce(fn, wait)` | Delay a function until calls stop for a given interval. |
 | `chunk(array, size)` | Split an array into groups of a given size. |
 | `unique(array)` | Remove duplicate values from an array, preserving order. |
-| `clamp(value, min, max)` | restrict a number to an inclusive range. |
-| `range(start, end, step)` | build an array of numbers over an interval. |
-| `sleep(ms)` | resolve a promise after a delay, for use with async/await. |
-| `pick(obj, keys)` | copy a subset of keys into a new object. |
-| `omit(obj, keys)` | copy an object without the given keys. |
-| `groupBy(array, fn)` | group array items into buckets by a selector. |
-| `isValidCNPJ(cnpj)` | validate a Brazilian CNPJ number, with or without mask. |
-| `truncate(str, length, suffix)` | shorten a string and append a suffix when cut. |
-| `deepClone(value)` | deep clone a structured value. |
+| `clamp(value, min, max)` | Restrict a number to an inclusive range. |
+| `range(start, end, step)` | Build an array of numbers over an interval. |
+| `sleep(ms)` | Resolve a promise after a delay, for use with async/await. |
+| `pick(obj, keys)` | Copy a subset of keys into a new object. |
+| `omit(obj, keys)` | Copy an object without the given keys. |
+| `groupBy(array, fn)` | Group array items into buckets by a selector. |
+| `isValidCNPJ(cnpj)` | Validate a Brazilian CNPJ number, with or without mask. |
+| `truncate(str, length, suffix)` | Shorten a string and append a suffix when cut. |
+| `deepClone(value)` | Deep clone a structured value. |
 
 Every function lives in its own file under `src/`, so you can also copy a single helper without importing the rest.
 
