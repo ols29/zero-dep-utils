@@ -43,6 +43,7 @@ const onResize = debounce(() => console.log('done'), 200);
 | `pick(obj, keys)` | copy a subset of keys into a new object. |
 | `omit(obj, keys)` | copy an object without the given keys. |
 | `groupBy(array, fn)` | group array items into buckets by a selector. |
+| `isValidCNPJ(cnpj)` | validate a Brazilian CNPJ number, with or without mask. |
 
 Every function lives in its own file under `src/`, so you can also copy a single helper without importing the rest.
 
