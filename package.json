@@ -1,17 +1,22 @@
 {
   "name": "zero-dep-utils",
   "version": "0.1.0",
-  "description": "Small, zero-dependency JavaScript utility functions.",
+  "description": "Small, zero-dependency JavaScript utility functions, including Brazilian CPF and CNPJ validators.",
   "type": "module",
   "main": "src/index.js",
   "exports": "./src/index.js",
+  "sideEffects": false,
+  "files": ["src", "README.md", "LICENSE"],
   "engines": { "node": ">=18" },
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "prepublishOnly": "node --test"
   },
-  "keywords": ["utils", "utilities", "javascript", "zero-dependency", "esm"],
+  "keywords": ["utils", "utilities", "javascript", "zero-dependency", "esm", "cpf", "cnpj", "brazil", "validation", "slugify"],
   "author": "Oliver Santos (https://github.com/ols29)",
   "license": "MIT",
+  "homepage": "https://github.com/ols29/zero-dep-utils#readme",
+  "bugs": { "url": "https://github.com/ols29/zero-dep-utils/issues" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ols29/zero-dep-utils.git"

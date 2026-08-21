@@ -11,6 +11,14 @@ Small, dependency free JavaScript utility functions. Pure ESM, tested with the b
 
 Most projects reach for a heavy utility library to use two or three helpers. This is the opposite: each function is tiny, isolated in its own file, and copy paste friendly. Take only what you need.
 
+## Install
+
+```bash
+npm install zero-dep-utils
+```
+
+Or copy the single file you need directly from `src/`. Every utility is self contained.
+
 ## Usage
 
 ```js
