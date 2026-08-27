@@ -2,7 +2,6 @@
 
 [![Module: ESM](https://img.shields.io/badge/module-ESM-blue.svg)](https://nodejs.org/api/esm.html)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://nodejs.org)
-[![CI](https://github.com/ols29/zero-dep-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/ols29/zero-dep-utils/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/ols29/zero-dep-utils/pulls)
 
@@ -15,25 +14,15 @@ Most projects reach for a heavy utility library to use two or three helpers. Thi
 ## Install
 
 ```bash
-npm install github:ols29/zero-dep-utils
+npm install zero-dep-utils
 ```
 
-The npm package name is reserved for the first registry release. Until then, the
-GitHub install above is the supported package installation. You can also copy the
-single file you need directly from `src/`; every utility is self contained.
+Or copy the single file you need directly from `src/`. Every utility is self contained.
 
 ## Usage
 
 ```js
-import {
-  capitalize,
-  slugify,
-  formatBRL,
-  isValidCPF,
-  debounce,
-  chunk,
-  unique,
-} from 'zero-dep-utils';
+import { capitalize, slugify, formatBRL, isValidCPF, debounce, chunk, unique } from './src/index.js';
 
 capitalize('hello');            // "Hello"
 slugify('São Paulo');           // "sao-paulo"
@@ -77,13 +66,6 @@ npm test
 ```
 
 Each utility ships with its own test file under `test/`. No test framework or dependencies required.
-
-The CI workflow runs the suite on every supported Node.js release line.
-
-## Contributing
-
-Bug reports, focused utilities, documentation improvements, and tests are
-welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the project guidelines.
 
 ## License
 
